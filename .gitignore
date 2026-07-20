@@ -1,0 +1,108 @@
+# ======================================================
+# OS Files
+# ======================================================
+.DS_Store
+Thumbs.db
+
+# ======================================================
+# Python
+# ======================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Type Checking
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Linting
+.ruff_cache/
+
+# ======================================================
+# Environment Variables
+# ======================================================
+.env
+.env.*
+!.env.example
+
+# ======================================================
+# Machine Learning
+# ======================================================
+
+# Dataset (ignore if too large or private)
+data/
+
+# Trained models
+models/
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+
+# Experiment outputs
+runs/
+logs/
+wandb/
+mlruns/
+tensorboard/
+
+# Generated metrics
+*.json
+
+# Uncomment if you want to keep metrics in git
+#!models/metrics.json
+#!models/feature_importance.json
+
+# ======================================================
+# Frontend
+# ======================================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ======================================================
+# Backend
+# ======================================================
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# ======================================================
+# IDE
+# ======================================================
+.vscode/
+.idea/
+
+# ======================================================
+# Misc
+# ======================================================
+*.log
+*.tmp
+*.swp
