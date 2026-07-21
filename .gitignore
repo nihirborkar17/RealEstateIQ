@@ -67,7 +67,7 @@ mlruns/
 tensorboard/
 
 # Generated metrics
-*.json
+*.log.json
 
 # Uncomment if you want to keep metrics in git
 #!models/metrics.json
